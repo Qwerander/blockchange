@@ -1,0 +1,93 @@
+.changeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.changeTitle {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+
+.changeForm {
+    display: flex;
+    width: 100%;
+}
+
+.changeWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.changeWrapperTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.changeWrapperBottom {
+    display: flex;
+    width: 100%;
+}
+
+.changeLabel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.changeSelect {
+    display: block;
+    margin-left: 18px;
+    padding: 10px 16px;
+    width: 300px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9CA3AF;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+}
+.changeLabel:not(:last-child) {
+    margin-right: 18px;
+}
+
+.changeInput {
+    display: block;
+    margin-left: 18px;
+    padding: 10px 16px;
+    width: 300px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9CA3AF;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+.changeBtn {
+    align-self: flex-start;
+    padding: 14px 21px;
+    background: #116ACC;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    min-height: 100%;
+}

@@ -1,0 +1,119 @@
+.accountDetails {
+    padding: 50px;
+}
+
+.accountDetailsTop {
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.accountDetailsTopLeft {
+    align-self: flex-start;
+}
+.accountDetailsTopRight {
+    align-self: flex-end;
+}
+.accountDetailsTitle {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+    
+}
+.accountDetailsCheck {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+.accountDetailsBalance {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.accountDetailsBalanceText {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+.accountDetailsBalanceSumm {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+.accountDetailsCenter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;    
+}
+.accountDetailsCenterLeft {
+    padding: 25px 50px;
+    min-width: calc((100% - 50px) / 2);
+    background: #F3F4F6;
+    border-radius: 50px;
+}
+
+.accountDetailsCenterRight {
+    padding: 25px 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    min-width: calc((100% - 50px) / 2);
+}
+
+.accountDetailsBottom {
+    padding: 25px 50px;
+    display: flex;
+    min-width: 100%;
+    background: #F3F4F6;
+    border-radius: 56px;
+}
+
+.accountDetailsButton {
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;   
+    
+    background: #116ACC;
+    border: 2px solid #116ACC;
+    border-radius: 7px;
+}
+
+.accountDetailsButton:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #116ACC;
+}

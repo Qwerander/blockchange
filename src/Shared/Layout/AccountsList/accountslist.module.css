@@ -1,0 +1,56 @@
+.accountsList {
+    padding: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+    color: #000000;
+}
+.accountsListTop {
+    margin-bottom: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.accountsListTitle {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.accountsListWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 160px;
+}
+
+.accountsButton {
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;   
+    
+    background: #116ACC;
+    border: 2px solid #116ACC;
+    border-radius: 7px;
+}
+
+.accountsButton:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #116ACC;
+}

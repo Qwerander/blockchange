@@ -1,0 +1,27 @@
+.mapBanks {
+    padding: 50px;
+}
+
+.mapBanksTop {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.mapBanksTitle{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+ 
+.mapBanksBottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   }
