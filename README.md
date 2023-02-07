@@ -12,6 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `npm run build`
 ### `npm run eject`
 
-
+В папке ### `server` находится серверная часть приложения в ней же есть файл README.md 
+где подробно описана работа серверной части
 
 
